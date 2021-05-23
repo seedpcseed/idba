@@ -1,4 +1,5 @@
-AUTOMAKE_OPTIONS = foreign
+AUTOMAKE_OPTIONS = subdir-objects
+#AUTOMAKE_OPTIONS = foreign
 SUBDIRS = lib bin test script
 
 scan:
