@@ -1,6 +1,6 @@
 aclocal
 autoconf
 automake --add-missing
-./configure
+./configure CXX=mpic++ CXXFLAGS=-lrt
 make clean 
 make -j
